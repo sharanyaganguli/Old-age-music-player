@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>old age music player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+</head>
+<body>
+<center>
+  	<h3  class="btn btn-warning title">AI DJ WEB APP
+	    <br>
+	    <span>NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. </span>
+  	</h3>
+	<br><br>
+
+  <div class="disk1">
+<img class="disk" src="disk.gif" alt="disk gif">
+  </div>
+
+<div class="disk2">
+  <img class="disk" src="disk.gif" alt="disk gif">
+  <br> <label class="btn btn-danger">Volume</label>
+  <label id="volume_value"></label>
+</div>
+
+<button id="play" class="btn btn-primary" onclick="play_music()">Play</button>
+<br> <br>
+
+</center>
+
+<script src="main.js"></script>
+</body>
+</html>
